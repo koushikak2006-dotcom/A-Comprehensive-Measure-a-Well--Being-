@@ -1,0 +1,16 @@
+# Skill Wallet - Comprehensive Measure of Well-being
+
+A web app to track personal well-being across 5 dimensions.
+
+## Features
+- Add skills with level and evidence
+- Auto-calculated overall well-being score
+- Save data locally
+- Action plan section
+
+## How to Run
+1. Download all files
+2. Open `index.html` in browser
+3. Or deploy on GitHub Pages
+
+Created for Skill Wallet Project 2026
