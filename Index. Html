@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skill Wallet - Well-being</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🧠 A Comprehensive Measure of Well-being</h1>
+      <p>Track and grow your skills across 5 dimensions</p>
+      <div id="overall-score">Overall Well-being Score: 0/5</div>
+    </header>
+
+    <form id="skill-form">
+      <h2>Add New Skill</h2>
+      <select id="dimension" required>
+        <option value="">Select Dimension</option>
+        <option value="Physical">Physical</option>
+        <option value="Mental">Mental</option>
+        <option value="Emotional">Emotional</option>
+        <option value="Social">Social</option>
+        <option value="Purpose">Purpose</option>
+      </select>
+      <input type="text" id="skill-name" placeholder="Skill Name e.g. Stress Management" required>
+      <input type="number" id="level" placeholder="Level 1-5" min="1" max="5" required>
+      <input type="text" id="evidence" placeholder="Evidence: Course, Activity, etc" required>
+      <button type="submit">Add Skill</button>
+    </form>
+
+    <section id="wallet">
+      <h2>My Skill Wallet</h2>
+      <div id="skill-list"></div>
+    </section>
+
+    <section id="action-plan">
+      <h2>Action Plan</h2>
+      <textarea id="goals" placeholder="Write your next goals here..."></textarea>
+      <button onclick="saveGoals()">Save Goals</button>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
