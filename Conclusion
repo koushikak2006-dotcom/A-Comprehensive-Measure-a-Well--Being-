@@ -1,0 +1,7 @@
+The Skill Wallet project provides a simple and effective way to track well-being across five key dimensions: Physical, Mental, Emotional, Social, and Purpose. Unlike traditional skill tracking that focuses only on technical abilities, this project takes a holistic approach to personal development.
+
+The web application allows users to record skills, attach evidence, and calculate an overall well-being score. It also includes an action plan section to set future goals. Built using HTML, CSS, and JavaScript with local storage, the application is easy to use and accessible to everyone.
+
+This project highlights the importance of regularly measuring well-being to identify strengths and areas for improvement. It serves as a useful tool for students and professionals to maintain balance in life. 
+
+In the future, the Skill Wallet can be enhanced with charts, data analytics, and AI-based suggestions to provide better insights. Overall, it promotes self-awareness and encourages continuous growth for a healthier and more productive
